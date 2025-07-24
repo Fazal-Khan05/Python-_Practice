@@ -1,0 +1,5 @@
+name , age , country = input("Enter your name, age, and country (separated by space): ").split()
+age = int(age)
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Country: {country}")
